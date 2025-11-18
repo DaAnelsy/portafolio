@@ -12,6 +12,9 @@
   body {
     font-family: 'Inter', sans-serif;
   }
+  html:not(.dark) body {
+    @apply bg-white text-gray-900;
+  }
 }
 
 @layer components {
