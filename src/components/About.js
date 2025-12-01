@@ -3,7 +3,7 @@ import { FiArrowDown, FiAward, FiUsers, FiCoffee } from 'react-icons/fi';
 
 function About() {
   const stats = [
-    { icon: FiAward, number: '2+', label: 'Años de Experiencia' },
+    { icon: FiAward, number: '3+', label: 'Años de Experiencia' },
     { icon: FiUsers, number: '20+', label: 'Proyectos Completados' },
     { icon: FiCoffee, number: '500+', label: 'Tazas de Café' },
   ];
@@ -51,7 +51,7 @@ function About() {
               
               <div className="space-y-4 text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
                 <p>
-                  Soy un desarrolladora apasionada con más de 2 años de experiencia creando 
+                  Soy un desarrolladora apasionada con más de 3 años de experiencia creando 
                   soluciones digitales innovadoras. Mi enfoque se centra en escribir código 
                   limpio, escalable y centrado en el usuario.
                 </p>
